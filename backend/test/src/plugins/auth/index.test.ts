@@ -5,7 +5,7 @@ import Lab = require('lab');
 import Config = require('../../../../config');
 
 import User from '../../../../src/plugins/auth/models/user';
-import Session from '../../../../src/plugins/auth/models/session';
+// import Session from '../../../../src/plugins/auth/models/session';
 
 import EmitterPlugin = require('../../../../src/plugins/event-emitter/index');
 import AuthPlugin = require('../../../../src/plugins/auth/index');

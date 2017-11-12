@@ -13,6 +13,7 @@ exports.seed = function (knex: Knex): Promise<any> {
     .then(function(hash) {
       const rows = [
         {
+          id: 1,
           name: 'Joshua Tan',
           username: 'tantohyung',
           password: hash,

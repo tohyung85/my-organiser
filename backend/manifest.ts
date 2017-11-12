@@ -33,6 +33,9 @@ const manifest = {
       plugin: './src/plugins/hello'
     },
     {
+      plugin: './src/plugins/tasklists'
+    },
+    {
       plugin: 'inert'
     },
     {
